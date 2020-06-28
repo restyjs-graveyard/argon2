@@ -1,0 +1,47 @@
+{
+  "name": "@restyjs/argon2",
+  "version": "0.0.1-alpha.17",
+  "description": "argon2 module for resty.js.",
+  "homepage": "https://restyjs.com",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/restyjs/argon2",
+  "author": "Satish Babariya",
+  "license": "MIT",
+  "keywords": [
+    "restyjs",
+    "resty",
+    "argon2",
+    "crypto",
+    "encryption",
+    "hashing",
+    "password"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "test": "jest",
+    "dev": "ts-node example/main.ts",
+    "release": "yarn publish --access public"
+  },
+  "dependencies": {
+    "argon2": "^0.26.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  }
+}
