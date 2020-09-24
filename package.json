@@ -1,6 +1,6 @@
 {
   "name": "@restyjs/argon2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "argon2 module for resty.js.",
   "homepage": "https://restyjs.com",
   "main": "index.js",
