@@ -1,6 +1,6 @@
 image: gitpod/workspace-full
 
 tasks:
-  - init: install release globaly
-    command: npm install -g release && yarn
+  - command: yarn
+  - command: npm install -g release
      
